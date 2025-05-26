@@ -26,11 +26,15 @@ export const FAQ = () => {
     },
     {
       question: "Is there a monthly subscription fee?",
-      answer: "No! Lumora is a one-time purchase with no monthly fees. All features and updates are included forever."
+      answer: "Yes, Lumora requires a monthly subscription of $9.99/month for cloud sync, premium features, and ongoing software updates. The first month is included free with your purchase."
     },
     {
-      question: "What if I'm not satisfied?",
-      answer: "We offer a satisfaction guarantee. If you're not completely satisfied, contact our support team and we'll make it right."
+      question: "What are your return options?",
+      answer: "We offer a 30-day satisfaction guarantee. If you're not completely satisfied with your Lumora, you can return it for a full refund within 30 days of purchase."
+    },
+    {
+      question: "What if I need technical support?",
+      answer: "Our dedicated support team is available via chat, email, and phone. We also provide comprehensive online tutorials and a community forum for tips and tricks."
     }
   ];
 

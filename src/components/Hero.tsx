@@ -66,7 +66,7 @@ export const Hero = () => {
           <div className="relative">
             <div className="bg-white p-8 rounded-3xl shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
               <img 
-                src="/lovable-uploads/e87ce158-cdab-4b09-8fb8-f9049e260cd1.png" 
+                src="/lovable-uploads/0dfa53d1-0b21-4777-a63b-4ceb63127033.png" 
                 alt="Lumora Display showing family calendar"
                 className="w-full rounded-2xl"
               />

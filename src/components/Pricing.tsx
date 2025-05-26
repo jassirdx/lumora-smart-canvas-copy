@@ -37,7 +37,7 @@ export const Pricing = () => {
                 <span className="text-3xl text-gray-400 line-through">$132</span>
                 <span className="text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">$79</span>
               </div>
-              <p className="text-lg text-gray-600 font-medium">One-time purchase, lifetime of organization</p>
+              <p className="text-lg text-gray-600 font-medium">One-time purchase + $9.99/month subscription</p>
             </div>
             
             <div className="space-y-4 mb-8">
@@ -65,6 +65,10 @@ export const Pricing = () => {
                 <CheckCircle className="w-5 h-5 text-green-500" />
                 <span className="font-medium">7-14 day delivery</span>
               </div>
+              <div className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
+                <CheckCircle className="w-5 h-5 text-green-500" />
+                <span className="font-medium">30-day money-back guarantee</span>
+              </div>
             </div>
             
             <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-4 text-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
@@ -72,7 +76,7 @@ export const Pricing = () => {
             </Button>
             
             <p className="text-center text-sm text-gray-500 mt-4 font-medium">
-              ✨ Satisfaction guaranteed or money back
+              ✨ 30-day satisfaction guarantee • Easy returns • Premium support included
             </p>
           </div>
         </div>
