@@ -30,30 +30,30 @@ export const FAQ = () => {
     },
     {
       question: "What if I'm not satisfied?",
-      answer: "We offer a 30-day money-back guarantee. If you're not completely satisfied, return your Lumora for a full refund."
+      answer: "We offer a satisfaction guarantee. If you're not completely satisfied, contact our support team and we'll make it right."
     }
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gradient-to-br from-white to-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">
+          <h2 className="text-5xl font-bold text-gray-900 mb-6">
             Frequently Asked Questions
           </h2>
-          <p className="text-xl text-gray-600">
-            Everything you need to know about Lumora
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Everything you need to know about your new smart family display
           </p>
         </div>
         
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="bg-gray-50 rounded-lg px-6">
-                <AccordionTrigger className="text-left font-semibold">
+              <AccordionItem key={index} value={`item-${index}`} className="bg-white rounded-xl px-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                <AccordionTrigger className="text-left font-bold text-gray-900 hover:text-blue-600 transition-colors duration-300">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-600">
+                <AccordionContent className="text-gray-600 leading-relaxed">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
